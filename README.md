@@ -24,3 +24,11 @@ Built with **MVP + SOLID principles**
 - No third-party dependencies
 
 ## Project Structure
+FestivalIndia/
+├── Core/ Models, Protocols, DisplayModels
+├── Data/ FestivalRepository + raw festival data
+├── Services/ NotificationService
+├── Presentation/ Home, Detail, Settings — each with Presenter + View
+├── Components/ 9 reusable SwiftUI components
+├── App/ DependencyContainer + App entry point
+└── Tests/ 31 unit tests with mock dependencies
